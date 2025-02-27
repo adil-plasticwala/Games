@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car speed check game</title>
+    <link rel="stylesheet" href="carspeed.css">
+    <script src="carspeed.js"></script>
+  </head>
+<body>
+    <div id="container">
+        <div id="road">
+            <div id="car1"></div>
+            <div id="separator"></div>
+            <div id="car2"></div>
+        </div>
+        <div id="controls">
+            <label>Car1 Speed (px/sec.): </label>
+            <input type="number" id="speed1" value="100"/>
+            <br><br>
+            <label>Car2 Speed (px/sec.): </label>
+            <input type="number" id="speed2" value="80"/>
+            <br><br>
+            <button id="start" onclick="start()">START</button>
+            <button id="stop" onclick="stop()">STOP</button>
+        </div>
+    </div>
+</body>
+</html>

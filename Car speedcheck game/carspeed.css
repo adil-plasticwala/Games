@@ -1,0 +1,43 @@
+#container 
+{
+    width:400px;
+}
+#car1
+{
+    background-color:red;
+    position:relative;
+    width:90px;
+    height:50px;
+    border:none;
+   
+}
+#car2
+{
+    background-color:green;
+    position:relative;
+    width:90px;
+    height:50px;
+    border:none;
+    
+} 
+#road 
+{
+    padding:10px;
+    background-color:#484848;
+}
+#separator 
+{
+    height:7px;
+    background-color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#controls
+{
+    padding:10px;
+    text-align:center;
+}
+input 
+{
+    width:50px;
+}
